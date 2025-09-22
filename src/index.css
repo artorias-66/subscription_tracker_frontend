@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Global theme enhancements */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 40%, #eef2ff 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
