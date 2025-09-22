@@ -17,7 +17,7 @@ function SignUp({ setUser }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await API.post("auth/sign-up", form);
+      const res = await API.post("/auth/sign-up", form);
 
       // Save JWT & userId in localStorage
       localStorage.setItem("token", res.data.data.token);
