@@ -17,7 +17,7 @@ function SignIn({ setUser }) {
     e.preventDefault();
     try {
       // Send login request to backend
-      const res = await API.post("/auth/sign-in", form);
+      const res = await API.post("auth/sign-in", form);
 
       // Save JWT & userId in localStorage
       localStorage.setItem("token", res.data.data.token);
