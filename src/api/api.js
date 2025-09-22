@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const apiBase = (import.meta.env.VITE_API_URL || "http://localhost:5500") + "/api/v1";
+const apiBase = (import.meta.env.VITE_API_URL || "https://subscription-tracker-eight-beige.vercel.app") + "/api/v1";
 
 const API = axios.create({
   baseURL: apiBase,
